@@ -1,8 +1,6 @@
-# $Id: 02-parse.t 962 2003-01-27 23:53:02Z btrott $
-
 use strict;
 
-use Test;
+use Test::More;
 use XML::FOAF;
 use File::Basename qw( dirname );
 use File::Spec;

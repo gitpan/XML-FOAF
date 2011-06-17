@@ -1,16 +1,29 @@
-name: XML-FOAF
-version: 0.03
-abstract: Parse FOAF (Friend of a Friend) data
-author: Benjamin Trott <ben+cpan@stupidfool.org>
-license: perl
+---
+abstract: 'Parse FOAF (Friend of a Friend) data'
+author:
+  - Benjamin
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
 distribution_type: module
-requires:
-  RDF::Core: 0
-  URI: 0
-recommends:
-  Crypt::OpenPGP: 1.03
+generated_by: 'Module::Install version 1.01'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: XML-FOAF
 no_index:
   directory:
-    - t
     - inc
-generated_by: Module::Install version 0.36
+    - t
+    - xt
+requires:
+  Filter::Util::Call: 0
+  RDF::Core: 0
+  URI: 0
+  perl: 5.8.1
+resources:
+  license: http://dev.perl.org/licenses/
+  repository: git://github.com/btrott/XML-FOAF.git
+version: 0.04
